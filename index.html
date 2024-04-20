@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee</title>
+</head>
+
+<body>
+  <section class="page1" id="home">
+    <img src="../images/images.jpeg" alt="" class="img1">
+    <nav>
+      <section class="logo"><img src="../images/logo.png" class="logo-img"></section>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#Abaut">Abaut</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </nav>
+    <p class="one">Try</p>
+    <p class="two">Our</p>
+    <p class="three"><I>C</I><I>o</I><I>f</I><I>f</I><I>e</I><I>e</I></p>
+
+    <button class="button1">Order</button>
+  </section>
+  <section class="page2" id="menu">
+    <img src="../images/coffee-2.jpeg" alt="" class="img2">
+    <div class="menuitem">
+      <div class="menu1">
+        <img class="cup" src="../images/capichino.jpeg" alt="">
+        <p>A classic Italian coffe made with equal parts espresso,ateamed milk and frothed milk,toped with a dusting
+          cocoa powder <br> <i>Price:₹250</i></p>
+        <img class="cup" src="../images/affagato.jpeg" alt="">
+        <p>A delighful combination of a dhort of hot espresso poured over scoop of dreamy vanilla geleto
+          <br><i>Price:₹250</i>
+        </p>
+        <img class="cup" src="../images/Americano.jpeg" alt="">
+        <p>An espresso "stained with a dollod of frothy milk offering a perfect balance of bodness and creaminess.
+          <br><i>Price:₹180</i>
+        </p>
+      </div>
+      <div class="menu2"><img class="cup" src="../images/lungo.jpeg" alt="">
+        <p>lungo is a longer espress shot made by extracting more water through the same amount of coffee
+          <br><i>Price:₹180</i>
+        </p>
+        <img class="cup" src="../images/moch.jpeg" alt="">
+        <p>Equal parts espresso and steamed milk creating a rich and velvety coffee with a balanced flavor profile
+          <br><i>Price:₹220</i>
+        </p>
+        <img class="cup" src="../images/espresso.jpeg" alt="">
+        <p>Strong and intense a single shot of espresso brewed to prefection <br><i>Price:₹150</i></p>
+      </div>
+    </div>
+  </section><img src="../images/coffee-colour.png" alt="" class="img3">
+
+  <section class="page3" id="Abaut">
+    <img src="../images/coffee4.jpg" alt="" class="img4">
+
+    <p class="Abautp">
+      <b class="co-ti">Abaut me <I>a coffee shop</I></b><br>
+
+      &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; Welcome,it's <b style=" color: brown;">Coffee Time</b>, where every sip is
+      a journey through flavor and warmth. Nestled in the heart of
+      Dhule city, our cozy coffee haven has been brewing joy for two delightful years.
+
+      At Coffee Time, we believe in more than just coffee; we believe in crafting experiences. From the rich aroma of
+      freshly ground beans to the comforting ambiance that envelops you, every moment here is an invitation to savor
+      life's simple pleasures.
+
+      Our baristas are artisans, dedicated to perfecting each cup with passion and precision. Whether you're craving a
+      classic espresso or a specialty latte infused with local flavors, we're here to exceed your expectations, one sip
+      at
+      a time.
+    </p><br>
+    <p class="Abaut-awards"><b class="awards">Awards </b> <br>
+      <b style=" color: brown;"> Best Brews of Dhule:</b> Recognized for our exceptional coffee blends and meticulous
+      brewing techniques. <br>
+
+      <b style=" color: brown;"> Coziest Coffee Corner:</b> Voted as the most inviting and charming coffee spot in town,
+      where friends gather and
+      memories are made. <br>
+
+      <b style=" color: brown;"> Community Champion:</b> Honored for our commitment to supporting local farmers and
+      businesses, ensuring that every cup
+      you enjoy is a celebration of community spirit. <br>
+
+      <br>&nbsp; &nbsp;&nbsp; &nbsp;Join us at Coffee Time, where every moment is a toast to life, love, and the perfect
+      cup of coffee.
+    </p>
+  </section>
+
+  <footer>
+    <section class="footergrid">
+      <ul>
+        <li><a href=""> adipisicing elit. Consectetur, sunt!</a></li>
+        <li><a href="">Lorem ipsum dolocing.</a></li>
+     
+      <li><a href="">jd d wdyyw .</a></li>
+       </ul><ul>
+        <li><a href=""> ipsum dolor.</a></li>
+        <li><a href=""> dolor sit amet.</a></li>
+        <li><a href="">ipsum dolor sit amet.</a></li>
+      </ul>
+    </section>
+    <section id="dets">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium adipisci quibusdam explicabo reprehenderit, ipsum alias qui, mollitia suscipit atque esse, hic iure vitae culpa similique cupiditate nostrum? Quaerat amet neque sit labore perspiciatis voluptatum itaque expedita exercitationem eligendi molestias accusamus cumque consectetur consequatur totam rem, fuga accusantium quo suscipit natus.
+    </section>
+    <a class="ossis" href="https://ossisifobytech.com">@OssisInfoByTech</a>
+  </footer>
+
+</body>
+<link rel="stylesheet" href="style.css">
+<script>
+  document.addEventListener('DOMContentLoded', function () {
+    document.querySelectorAll('a[href="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const a = document.querySelector(this.getAttribute('href')).scrollIntoView({
+          if(a) {
+            window.scrollTo({
+              top: a.offsetTop,
+              behavior: 'smooth',
+              transition: '2s'
+            });
+          }
+
+
+        });
+      });
+    });
+  });
+</script>
+
+</html>
